@@ -49,7 +49,7 @@ jobs:
             - node_modules
 
       # prepare the database
-      - run: php artisan testdb:make
+      - run: php artisan testdb:make --env=testing
 
       - run: php artisan key:generate
       - run: ./vendor/bin/phpunit
