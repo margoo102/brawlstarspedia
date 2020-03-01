@@ -35,5 +35,28 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+//        'created_at' => 'datetime:Y-m-d',
+//        'is_admin' => 'boolean',
+//        'options' => 'array',
     ];
+
+    /**
+     * The attributes that should be mutated to dates.
+     *
+     * @var array
+     */
+//    protected $dates = [
+//        'email_verified_at',
+//    ];
+
+    /**
+     * Get the phone record associated with the user.
+     */
+//    public function gallery() {
+//        return $this->hasOne('App\Gallery'/* ,'user_id' [,'id'] );
+//        return $this->hasOne('App\Gallery', 'owner_id', 'user_id');
+//    }
+
+
+
 }
