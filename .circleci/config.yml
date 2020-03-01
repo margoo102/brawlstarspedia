@@ -49,6 +49,7 @@ jobs:
             - node_modules
 
       # prepare the database
+      - run: echo "APP_KEY=" > .env
       - run: php artisan testdb:make --env=testing
 
       - run: php artisan key:generate
