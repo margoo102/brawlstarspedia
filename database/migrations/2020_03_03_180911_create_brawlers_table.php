@@ -9,10 +9,6 @@ class CreateBrawlersTable extends Migration {
     public function up() {
         Schema::create('brawlers', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('speed_movement');
-            $table->string('attack_range');
-            $table->string('reload_speed');
-            $table->string('super_attack_range');
             $table->string('name');
 
             $table->tinyInteger('offense')->unsigned();
