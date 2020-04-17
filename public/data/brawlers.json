@@ -1,0 +1,29 @@
+{
+    "brawlers": {
+        "trophies": [
+            "shelly",
+            "nita",
+            "colt",
+            "bull",
+            "jessie",
+            "brock",
+            "dynamike",
+            "bo",
+            "tick",
+            "8bit",
+            "Emz"
+        ],
+        "rare": [
+            "el-primo",
+            "poco",
+            "barley",
+            "rosa"
+        ],
+        "super-rare": [
+
+        ],
+        "epic": [],
+        "mythic": [],
+        "legendary": []
+    }
+}
