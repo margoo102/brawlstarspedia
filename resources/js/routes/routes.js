@@ -2,7 +2,6 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 
 import Home from '../components/Home';
-import About from '../components/About';
 import Brawlers from '../components/Brawlers';
 import Brawler from "../components/Brawler";
 
@@ -19,11 +18,7 @@ const router = new VueRouter({
         },
         {
             path: '/brawlers/:name', name: 'brawler', component: Brawler
-        },
-        {
-            path: '/about', name: 'about', component: About
         }
-
     ]
 })
 
