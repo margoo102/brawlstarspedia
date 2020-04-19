@@ -1,3 +1,5 @@
 <template>
-    <div>Home Component</div>
+    <div>
+        <h2> Strona Główna</h2>
+    </div>
 </template>

@@ -4,6 +4,7 @@ import VueRouter from 'vue-router';
 import Home from '../components/Home';
 import About from '../components/About';
 import Brawlers from '../components/Brawlers';
+import Brawler from "../components/Brawler";
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,9 @@ const router = new VueRouter({
         },
         {
             path: '/brawlers', name: 'brawlers', component: Brawlers
+        },
+        {
+            path: '/brawlers/:name', name: 'brawler', component: Brawler
         },
         {
             path: '/about', name: 'about', component: About
