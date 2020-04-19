@@ -1,3 +1,5 @@
 <template>
-    <div>About Component</div>
+    <div>
+        <h1>Kim jesteśmy</h1>
+    </div>
 </template>
