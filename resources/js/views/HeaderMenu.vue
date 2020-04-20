@@ -1,10 +1,9 @@
 <template>
     <div id="main-nav">
         <ul>
-            <li><router-link to="/">Strona Główna</router-link></li>
-            <li><router-link to="/brawlers">Brawlerzy(Zadymiarze)</router-link></li>
-            <li><router-link to="/maps">Mapki(TBD)</router-link></li>
-            <li><router-link to="/about">O Nas</router-link></li>
+            <li><router-link to="/">Home</router-link></li>
+            <li><router-link to="/brawlers">Brawlers</router-link></li>
+            <li><router-link to="/maps">Maps</router-link></li>
         </ul>
     </div>
 </template>

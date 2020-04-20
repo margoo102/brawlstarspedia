@@ -11,19 +11,22 @@
             "bo",
             "tick",
             "8bit",
-            "Emz"
+            "emz"
         ],
         "rare": [
-            "el-primo",
-            "poco",
-            "barley",
-            "rosa"
+            "el-primo", "poco", "barley", "rosa"
         ],
         "super-rare": [
-
+            "rico", "darryl", "penny", "carl", "jacky"
         ],
-        "epic": [],
-        "mythic": [],
-        "legendary": []
+        "epic": [
+            "piper", "pam", "frank", "bibi", "bea"
+        ],
+        "mythic": [
+            "max", "sprout", "mortis", "tara", "gene", "mrp"
+        ],
+        "legendary": [
+            "spike", "crow", "sandy", "leon"
+        ]
     }
 }
