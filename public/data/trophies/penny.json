@@ -1,0 +1,20 @@
+{
+    "name": "Penny",
+    "category": "sharpshooter",
+    "type": "super rare",
+    "description": "Penny shoots bags of coins damaging the target and anyone standing behind. Her Super is a mortar-style cannon turret!",
+    "health": 4480,
+    "speed": "NORMAL",
+    "attack": {
+        "name": "PLUNDERBUSS",
+        "damage": "1260",
+        "range": "LONG",
+        "reload_speed": "SLOW"
+    },
+    "super": {
+        "name": "OLD LOBBER",
+        "cannon_health": 3920,
+        "cannon_damage": 1680,
+        "range": "VERY LONG"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Nita",
+    "category": "fighter",
+    "type": "trophy road reward",
+    "health": 5200,
+    "speed": "NORMAL",
+    "attack": {
+        "name": "RUPTURE",
+        "damage": "1040",
+        "range": "NORMAL",
+        "reload_speed": "VERY FAST"
+    },
+    "super": {
+        "name": "OVERBEARING",
+        "bear_health": 5200,
+        "movement_speed": "SLOW",
+        "bear_damage": "520",
+        "range": "SHORT"
+    }
+}
