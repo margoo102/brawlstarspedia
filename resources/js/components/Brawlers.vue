@@ -2,13 +2,28 @@
     <div class="brawlers">
         <h1>Witajcie w brawlerowni</h1>
 
-        <BrawlerCategory/>
+        <TrophyBrawlers/>
+
+        <RareBrawlers/>
+
+        <SuperRareBrawlers/>
+
+        <EpicBrawlers/>
+
+        <MythicBrawlers/>
+
+        <LegendaryBrawlers/>
+
     </div>
 </template>
 <script>
-    import BrawlerCategory from "./BrawlerCategory";
-
+    import TrophyBrawlers from "./TrophyBrawlers";
+    import RareBrawlers from "./RareBrawlers";
+    import SuperRareBrawlers from "./SuperRareBrawlers";
+    import EpicBrawlers from "./EpicBrawlers";
+    import MythicBrawlers from "./MythicBrawlers";
+    import LegendaryBrawlers from "./LegendaryBrawlers";
     export default {
-        components: {BrawlerCategory}
+        components: {RareBrawlers, TrophyBrawlers, SuperRareBrawlers, EpicBrawlers, MythicBrawlers, LegendaryBrawlers}
     }
 </script>

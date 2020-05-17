@@ -12,11 +12,14 @@
             <li>
                 <router-link to="/brawlers/colt">Colt</router-link>
             </li>
+            <li>
+                <router-link to="/brawlers/mike">Dynamike</router-link>
+            </li>
         </ul>
     </div>
 </template>
 <script>
     export default {
-        name: 'BrawlerCategory'
+        name: 'TrophyBrawlers'
     }
 </script>
