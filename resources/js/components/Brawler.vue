@@ -45,6 +45,5 @@
                     this.more = resp.data;
                 }))
         }
-
     }
 </script>
