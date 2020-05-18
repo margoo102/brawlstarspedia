@@ -1,19 +1,12 @@
 <template>
     <div class="brawlers">
         <h1>Witajcie w brawlerowni</h1>
-
-        <TrophyBrawlers/>
-
-        <RareBrawlers/>
-
+        <TrophyBrawlers title="Z alei pucharów"/>
+        <RareBrawlers title="Rzadziacy"/>
         <SuperRareBrawlers/>
-
         <EpicBrawlers/>
-
         <MythicBrawlers/>
-
         <LegendaryBrawlers/>
-
     </div>
 </template>
 <script>

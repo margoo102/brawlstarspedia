@@ -1,6 +1,6 @@
 <template>
     <div style="padding-top: 30px">
-        <h3>Rzadcy brawlerzy: </h3>
+        <h3>{{title}}: </h3>
 
         <ul style="padding-top: 20px">
             <li>
@@ -14,6 +14,12 @@
 </template>
 <script>
     export default {
-        name: 'RareBrawlers'
+        name: 'RareBrawlers',
+        props: {
+            title: {
+                type: String,
+                required: true
+            }
+        }
     }
 </script>

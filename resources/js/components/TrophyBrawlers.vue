@@ -1,6 +1,6 @@
 <template>
     <div style="padding-top: 30px">
-        <h3>Z alei pucharów: </h3>
+        <h3>{{title}}: </h3>
 
         <ul style="padding-top: 20px">
             <li>
@@ -20,6 +20,12 @@
 </template>
 <script>
     export default {
-        name: 'TrophyBrawlers'
+        name: 'TrophyBrawlers',
+        props: {
+            title: {
+                type: String,
+                required: true
+            }
+        }
     }
 </script>
