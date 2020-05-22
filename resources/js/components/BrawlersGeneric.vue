@@ -35,6 +35,7 @@
             }
         },
         mounted() {
+            console.log('Pobierz brawlerów: '+ this.kind)
             axios.get('/data/brawlers.json')
                 .then((resp => {
                     this.names = resp.data["brawlers"][this.kind];
