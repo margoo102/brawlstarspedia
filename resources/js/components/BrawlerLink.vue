@@ -8,12 +8,15 @@ export default {
     props: {
         name: {
             type: String
+        },
+        category: {
+            type: String
         }
     },
     data() {
         return {
-          url: "/brawlers/"+this.name
-    }
+          url: `/brawlers/${this.category}/${this.name}`
+        }
     }
 }
 </script>

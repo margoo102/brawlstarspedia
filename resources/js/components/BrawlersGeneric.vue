@@ -7,6 +7,7 @@
                  v-for="name in names"
                  :key="name"
                  :name="name"
+                 :category="kind"
             ></BrawlerLink>
         </ul>
     </div>
