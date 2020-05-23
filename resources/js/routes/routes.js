@@ -17,7 +17,7 @@ const router = new VueRouter({
             path: '/brawlers', name: 'brawlers', component: Brawlers
         },
         {
-            path: '/brawlers/:name', name: 'brawler', component: Brawler
+            path: '/brawlers/:category/:brawler', name: 'brawler', component: Brawler
         }
     ]
 })
