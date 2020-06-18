@@ -8,6 +8,9 @@
         <div id="content">
             <router-view></router-view>
         </div>
+        <div>
+            <button @click="greet">kliknij</button>
+        </div>
     </div>
 </template>
 <script>
@@ -15,6 +18,11 @@
     import HeaderTitle from "./HeaderTitle";
 
     export default {
-        components: {HeaderTitle, HeaderMenu}
+        components: {HeaderTitle, HeaderMenu},
+        methods: {
+            greet() {
+                console.table("greetings", "hello");
+            }
+        }
     }
 </script>

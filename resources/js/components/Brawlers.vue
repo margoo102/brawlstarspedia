@@ -1,29 +1,17 @@
 <template>
     <div class="brawlers">
         <h1>Witajcie w brawlerowni</h1>
-
-        <TrophyBrawlers/>
-
-        <RareBrawlers/>
-
-        <SuperRareBrawlers/>
-
-        <EpicBrawlers/>
-
-        <MythicBrawlers/>
-
-        <LegendaryBrawlers/>
-
+        <BrawlersGeneric title="Z alei pucharów" kind="trophies"/>
+        <BrawlersGeneric title="Rzadziacy" kind="rare"/>
+        <BrawlersGeneric title="Super Rzadziacy" kind="super-rare"/>
+        <BrawlersGeneric title="Epiki" kind="epic"/>
+        <BrawlersGeneric title="Mythic" kind="mythic"/>
+        <BrawlersGeneric title="Legendy" kind="legendary"/>
     </div>
 </template>
 <script>
-    import TrophyBrawlers from "./TrophyBrawlers";
-    import RareBrawlers from "./RareBrawlers";
-    import SuperRareBrawlers from "./SuperRareBrawlers";
-    import EpicBrawlers from "./EpicBrawlers";
-    import MythicBrawlers from "./MythicBrawlers";
-    import LegendaryBrawlers from "./LegendaryBrawlers";
-    export default {
-        components: {RareBrawlers, TrophyBrawlers, SuperRareBrawlers, EpicBrawlers, MythicBrawlers, LegendaryBrawlers}
+    import BrawlersGeneric from "./BrawlersGeneric";
+        export default {
+        components: {BrawlersGeneric}
     }
 </script>

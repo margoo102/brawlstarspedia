@@ -7,14 +7,14 @@
         <div>Movement speed: {{more.speed}}</div>
     </div>
 
-    <div class="container">
+    <div class="container" v-if="more.attack">
         <div>Attack name: {{more.attack.name}}</div>
         <div>Damage: {{more.attack.damage}}</div>
         <div>Range: {{more.attack.range}}</div>
         <div>Reload Speed: {{more.attack.reload_speed}}</div>
     </div>
 
-    <div class="container">
+    <div class="container" v-if="more.super">
         <div>Super name: {{more.super.name}}</div>
         <div>Damage: {{more.super.damage}}</div>
         <div>Range: {{more.super.range}}</div>
@@ -32,14 +32,16 @@
     import axios from 'axios';
 
     export default {
+        name: 'Brawler',
         data() {
             return {
                 more: {},
             }
         },
-        name: 'Brawler',
         mounted() {
-            axios.get('/data/trophies/'+this.$route.params.name+'.json')
+            let category = this.$route.params.category;
+            let brawler = this.$route.params.brawler;
+            axios.get('/data/'+ category+'/'+ brawler+'.json')
                 .then((resp => {
                     console.log(resp.data);
                     this.more = resp.data;
