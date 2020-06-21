@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Mr. P",
+    "details": {
+      "Rarity": "Mythic",
+      "Class": "Sharpshooter",
+      "Movement speed": "720",
+      "Gadget charges": "3"
+    },
+    "health": [
+      {
+        "null": null,
+        "1": "3200",
+        "2": "3360",
+        "3": "3520",
+        "4": "3680",
+        "5": "3840",
+        "6": "4000",
+        "7": "4160",
+        "8": "4320",
+        "9 - 10": "4480"
+      }
+    ],
+    "attack": {
+      "details": [
+        {
+          "Range": "7",
+          "Reload": "1.6 seconds",
+          "Super charge per hit": "17.5%"
+        }
+      ],
+      "levels": [
+        {
+          "null": null,
+          "1": "700",
+          "2": "735",
+          "3": "770",
+          "4": "805",
+          "5": "840",
+          "6": "875",
+          "7": "910",
+          "8": "945",
+          "9 - 10": "980"
+        }
+      ]
+    },
+    "super": {
+      "details": [
+        {
+          "Range": "5",
+          "Super charge per hit": "6.5%",
+          "Porter range": "4.67",
+          "Porter reload": "0.7 seconds",
+          "Porter movement speed": "800"
+        }
+      ],
+      "levels": [
+        {
+          "null": null,
+          "1": "2800",
+          "2": "2940",
+          "3": "3080",
+          "4": "3220",
+          "5": "3360",
+          "6": "3500",
+          "7": "3640",
+          "8": "3780",
+          "9 - 10": "3920"
+        }
+      ]
+    }
+  }
+]

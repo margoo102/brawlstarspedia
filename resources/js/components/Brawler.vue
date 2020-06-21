@@ -2,10 +2,7 @@
 <div>
     <h3 style="margin-left: 20px">Brawler: {{ more.name }} </h3>
 
-    <div class="container">
-        <div>Health: {{more.health}}</div>
-        <div>Movement speed: {{more.speed}}</div>
-    </div>
+    <BrawlerDetails :details="details"></BrawlerDetails>
 
     <div class="container" v-if="more.attack">
         <div>Attack name: {{more.attack.name}}</div>
@@ -30,13 +27,12 @@
 
 <script>
     import axios from 'axios';
+    import BrawlerDetails from "./BrawlerDetails";
 
     export default {
         name: 'Brawler',
+        components: {BrawlerDetails},
         data() {
-            return {
-                more: {},
-            }
         },
         mounted() {
             let category = this.$route.params.category;

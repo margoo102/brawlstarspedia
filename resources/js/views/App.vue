@@ -8,9 +8,6 @@
         <div id="content">
             <router-view></router-view>
         </div>
-        <div>
-            <button @click="greet">kliknij</button>
-        </div>
     </div>
 </template>
 <script>
@@ -20,9 +17,6 @@
     export default {
         components: {HeaderTitle, HeaderMenu},
         methods: {
-            greet() {
-                console.table("greetings", "hello");
-            }
         }
     }
 </script>

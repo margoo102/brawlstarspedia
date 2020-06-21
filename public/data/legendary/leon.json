@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Leon",
+    "details": {
+      "Rarity": "Legendary",
+      "Class": "Assassin",
+      "Movement speed": "820",
+      "Gadget charges": "3",
+      "Voice actor": "Benjamin Thomas"
+    },
+    "health": [
+      {
+        "null": null,
+        "1": "3200",
+        "2": "3360",
+        "3": "3520",
+        "4": "3680",
+        "5": "3840",
+        "6": "4000",
+        "7": "4160",
+        "8": "4320",
+        "9 - 10": "4480"
+      }
+    ],
+    "attack": {
+      "details": [
+        {
+          "Range": "9.67",
+          "Reload": "1.9 seconds",
+          "Bullets per attack": "4",
+          "Super charge per hit": "12.1-4.9% (close to max range)"
+        }
+      ],
+      "levels": [
+        {
+          "null": null,
+          "1": "440",
+          "2": "462",
+          "3": "484",
+          "4": "506",
+          "5": "528",
+          "6": "550",
+          "7": "572",
+          "8": "594",
+          "9 - 10": "616"
+        }
+      ]
+    },
+    "super": {
+      "details": [
+        {
+          "Duration": "6 seconds"
+        }
+      ],
+      "levels": [
+        {}
+      ]
+    }
+  }
+]

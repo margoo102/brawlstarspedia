@@ -1,6 +1,6 @@
 {
     "brawlers": {
-        "trophies": [
+        "common": [
             "shelly",
             "nita",
             "colt",
@@ -27,6 +27,9 @@
         ],
         "legendary": [
             "spike", "crow", "sandy", "leon"
+        ],
+        "chromatic": [
+            "gale"
         ]
     }
 }

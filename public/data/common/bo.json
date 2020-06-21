@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Bo",
+    "details": {
+      "Rarity": "Common",
+      "Class": "Fighter",
+      "Movement speed": "720",
+      "Gadget charges": "3",
+      "Voice actor": "Brian Stivale"
+    },
+    "health": [
+      {
+        "null": null,
+        "1": "3600",
+        "2": "3780",
+        "3": "3960",
+        "4": "4140",
+        "5": "4320",
+        "6": "4500",
+        "7": "4680",
+        "8": "4860",
+        "9 - 10": "5040"
+      }
+    ],
+    "attack": {
+      "details": [
+        {
+          "Range": "8.67",
+          "Reload": "1.7 seconds",
+          "Bullets per attack": "3",
+          "Super charge per hit": "10.4%"
+        }
+      ],
+      "levels": [
+        {
+          "null": null,
+          "1": "520",
+          "2": "546",
+          "3": "572",
+          "4": "598",
+          "5": "624",
+          "6": "650",
+          "7": "676",
+          "8": "702",
+          "9 - 10": "728"
+        }
+      ]
+    },
+    "super": {
+      "details": [
+        {
+          "Range": "8.67",
+          "Bullets per super": "3",
+          "Super charge per hit": "34.2%"
+        }
+      ],
+      "levels": [
+        {
+          "null": null,
+          "1": "1440",
+          "2": "1512",
+          "3": "1584",
+          "4": "1656",
+          "5": "1728",
+          "6": "1800",
+          "7": "1872",
+          "8": "1944",
+          "9 - 10": "2016"
+        }
+      ]
+    }
+  }
+]

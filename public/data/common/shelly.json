@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Shelly",
+    "details": {
+      "Rarity": "Common",
+      "Class": "Fighter",
+      "Movement speed": "720",
+      "Gadget charges": "3",
+      "Voice actor": "Sandra Espinoza"
+    },
+    "health": [
+      {
+        "null": null,
+        "1": "3600",
+        "2": "3780",
+        "3": "3960",
+        "4": "4140",
+        "5": "4320",
+        "6": "4500",
+        "7": "4680",
+        "8": "4860",
+        "9 - 10": "5040"
+      }
+    ],
+    "attack": {
+      "details": [
+        {
+          "Range": "7.67",
+          "Reload": "1.5 seconds",
+          "Bullets per attack": "5",
+          "Super charge per hit": "9.6%"
+        }
+      ],
+      "levels": [
+        {
+          "null": null,
+          "1": "300",
+          "2": "315",
+          "3": "330",
+          "4": "345",
+          "5": "360",
+          "6": "375",
+          "7": "390",
+          "8": "405",
+          "9 - 10": "420"
+        }
+      ]
+    },
+    "super": {
+      "details": [
+        {
+          "Range": "7.67",
+          "Bullets per super": "9",
+          "Super charge per hit": "9.6%"
+        }
+      ],
+      "levels": [
+        {
+          "null": null,
+          "1": "320",
+          "2": "336",
+          "3": "352",
+          "4": "368",
+          "5": "384",
+          "6": "400",
+          "7": "416",
+          "8": "432",
+          "9 - 10": "448"
+        }
+      ]
+    }
+  }
+]
